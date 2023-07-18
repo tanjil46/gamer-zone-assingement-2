@@ -58,8 +58,14 @@
 
       
 
+         .online-paragraph{
+            padding: 10px;
+         }
+           
 
-
+         .online-heading{
+            padding:10px 20px;
+         }
 
 
   }
