@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+
+
+
+/*NAVBAR STYLE STARTS HERE*/
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 40px;
+    align-items: center;
+}
+
+
+.logo-img-container{
+    display: flex;
+}
+
+.menubar{
+    display: flex;
+    
+    align-items: center;
+}
+
+
+
+
+.link-only a{
+    margin: 0 12px;
+    color: black;
+    padding: 10px;
+    transition: all 0.4s;
+    
+}
+
+
+.link-icon{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+}
+
+.link-icon a{
+    margin: 0 10px;
+    color: black;
+}
+   
+.link-only a:hover{
+  
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+}
+
+
+
+
+
+.icon1{
+    color: red;
+    font-size:20px;
+}
+
+.icon2{
+    color: black;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+.img1{
+    width: 65px;
+
+
+}
+
+.logo-title{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+.span1{
+    color: rgb(233, 8, 83);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+         /*MENUBAR WORK ISNT FINISH*/
+
+
+
+         /*BANNER CONTAINER DESINGING STARS*/
+
+
+
+         .banner-container{
+            display: flex;
+            justify-content: space-around;
+        
+            align-items: center;
+            padding: 50px;
+         }
+
+
+
+
+          .heading-play{
+            font-size: 30px;
+            padding: 10px 0;
+        
+           }
+
+
+
+           .goal-para{
+            font-size: 47px;
+            font-weight: bolder;
+            color:rgb(219, 41, 219);
+            padding: 10px 0;
+           }
+         
+
+
+            .play-paragraph{
+             color: rgb(49, 47, 47);
+             padding:8px 0;
+             font-weight: bold;
+             font-size: 12px;
+
+            }
+
+            
+            .btn{
+                margin: 10px 5px;
+                padding: 15px;
+                border: none;
+                color: white;
+                font-weight: bold;
+                background-color: rgb(228, 33, 228);
+                border-radius: 10px;
+                transition: all 0.4s;
+            }
+
+
+            .btn:hover{
+                background-color: black;
+            }
+
+
+            .btn1{
+ 
+                margin: 10px 5px;
+                padding: 17px;
+                border: none;
+                color: white;
+                font-weight: bold;
+                background-color:rgb(10, 205, 219);
+                border-radius:20px;
+                transition: all 0.4s;
+
+
+
+
+            }
+
+            .btn1:hover{
+                background-color: black;
+            }
+
+
+            .group-img{
+                width:420px;
+            }
