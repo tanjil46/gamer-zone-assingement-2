@@ -197,3 +197,124 @@
             .group-img{
                 width:420px;
             }
+
+
+
+               /*BANNER CONTAINER DESINGING FINIS*/
+
+
+
+                  /*ONLINE GAMES CONTAINER DESINGING STARS*/
+
+
+
+                    .online-section{
+                        text-align: center;
+                    }
+
+
+
+                  .online-games-container{
+                    padding: 50px 80px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                  }
+
+
+
+
+
+
+
+
+
+
+
+
+                  .img-on-line{
+                    width: 200px;
+                    height: 250px;
+                    border: 2px solid purple;
+                    border-radius: 10px;
+                  }
+
+                .img-on-line:hover{
+                    box-shadow: 2px 4px 6px 8px black;
+                }
+
+
+
+
+                  .img-on-line1{
+                    width: 200px;
+                    height: 250px;
+                    border-radius: 10px;
+                    background-image: linear-gradient(45deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.034),black);
+                  }
+
+                .img-on-line1:hover{
+
+                     box-shadow: 2px 4px 6px 8px black;
+                }
+
+
+
+
+
+
+
+
+
+                  .play{
+                   font-size: 40px;
+                   color:rgb(149, 236, 9);
+
+                  }
+
+                  .play-para{
+                    color:rgb(0, 225, 255);
+                    font-weight: bolder;
+                  }
+
+
+                  .online-img1{
+                    position: relative;
+
+                  }
+
+                .online-play-icon{
+                    position: absolute;
+                    top: 90px;
+                    left: 59px;
+                   
+                }
+
+
+
+
+                
+
+
+                 .online-heading{
+                    font-size: 30px;
+                    font-weight: bold;
+                    padding: 10px 0;
+
+                  }
+
+                  .span3{
+                    color: rgb(190, 7, 226);
+                  }
+
+                  .online-paragraph{
+                    font-size: 15px;
+                    color: rgba(17, 14, 14, 0.623);
+                  }
+
+
+
+                  .online-img-paragraph{
+                    padding: 5px 0;
+                    color: rgba(17, 14, 14, 0.801);
+                  }

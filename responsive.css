@@ -2,3 +2,147 @@
 
 /*RESPONSIVE FOR MOBILE (MAX-WIDTH:576PX)*/
 
+  @media screen and (max-width:576px) {
+    
+
+    /*NAVBAR SECTION RESPOMSIVE*/
+
+
+       .navbar-container{
+        flex-direction: column;
+        padding: 10px;
+        
+       }
+
+
+       .manubar,
+       .link-only,
+       .link-icon{
+        
+        display:grid;
+        
+        
+       }
+      
+/*BANNER RESPONSIVE NOT FINISHED*/
+
+
+
+
+
+   /*BANNER RESPONSIVE*/
+
+   .banner-container{
+    
+    flex-direction: column-reverse;
+    padding:20px 10px;
+    text-align: center;
+   }
+
+   .group-img{
+    width: 100%;
+   }
+
+
+
+                 /*ONLINE GAMES RESPONSIVE RESPONSIVE*/
+
+
+       .online-games-container{
+             display: grid;
+             grid-template-columns: repeat(1,1fr);
+             gap: 10px;
+             padding: 20px;
+
+       }
+
+      
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+         /*responsive with MAX WIDTH;990 PX*/
+
+
+         @media screen and (min-width:576px) and (max-width:990px) {
+           
+
+            /*NAVBAR SECTION RESPONSIVE*/
+
+            .navbar-container{
+                flex-direction: column;
+                padding: 30px;
+            }
+
+
+              .menubar{
+                margin: 30px 0;
+              }
+
+
+              .link-only{
+                margin: 0 50px;
+              }
+
+
+            /*BANNER SECTION RESPONSIVE*/
+
+
+            .banner-container{
+                flex-direction: column;
+                padding:30px 10px;
+                text-align: center;
+            }
+
+
+             .group-img{
+                width: 100%;
+             }
+
+
+
+              /*ONLINE GAMES RESPONSIVE RESPONSIVE*/
+
+              .online-games-container{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 10px;
+                padding: 20px;
+   
+      }
+
+
+
+         .img-on-line,
+         .img-on-line1{
+            width: 100%;
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
