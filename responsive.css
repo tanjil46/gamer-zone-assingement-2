@@ -13,17 +13,23 @@
         padding: 10px;
         
        }
+        
+       .menubar>ul{
+        display: grid;
+        
+        text-align: center;
+       }
 
 
-       .manubar,
-       .link-only,
-       .link-icon{
-        
-        display:grid;
-        
-        
+       .menubar ul li {
+        margin: 15px 0;
        }
       
+       .icon-only li {
+        padding: 8px 5px;
+        
+       }
+
 /*BANNER RESPONSIVE NOT FINISHED*/
 
 
