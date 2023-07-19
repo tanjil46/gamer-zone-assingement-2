@@ -121,6 +121,7 @@
                 
                              .list-games-section{
                               padding: 20px;
+                              margin-top: 30px;
                             }
 
 
@@ -150,6 +151,39 @@
            .game-one{
             margin: 10px;
            }
+
+
+
+
+                       /*FOOTER SECTION  GAMES RESPONSIVE */
+
+
+         .footer-link>ul,
+         .footer-icon>ul
+         {
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          text-align: center;
+          gap: 20px;
+        
+         }
+
+
+         .footer-terms>ul{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          gap: 20px;
+          text-align: center;
+         }
+
+
+
+
+
+
+
+
+
 
 
 
