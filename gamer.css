@@ -86,16 +86,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-         /*MENUBAR WORK ISNT FINISH*/
+               /*MENUBAR WORK ISNT FINISH*/
 
 
 
@@ -335,18 +326,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
           .instan-img{
             width: 350px;
           }
@@ -407,30 +386,14 @@
 
 
 
-
-
-
-
-
-
-
-                       .list-game-five{
+                    .list-game-five{
                        display: flex;
                        justify-content: space-around;
                        }
 
 
-
-
-
-
-
-
-
-
-
-                     .game-one,
-                     .game-one2,
+                       .game-one,
+                      .game-one2,
                      .game-one3{
                     
                       display: flex;
@@ -629,3 +592,7 @@
             font-size: 10px;
             color: antiquewhite;
           }
+
+
+
+          /*END*/
