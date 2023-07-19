@@ -34,11 +34,22 @@
   }
      .menubar ul li{
       margin:0 10px;
+      
      }
       
      .menubar ul li a{
+      padding: 10px;
+      transition:  all 0.4s;
       color: black;
      }
+     .menubar ul li a:hover{
+      color: white;
+      background-color: black;
+      border-radius: 10px;
+     }
+       
+      
+     
 
    .icon-only{
     display: flex;
@@ -54,7 +65,7 @@
     color: red;
    }
     .icon2{
-      color: black;
+      color: rgb(11, 209, 71);
     }
 
   .img1{
@@ -205,8 +216,8 @@
 
 
 
-                  .img-on-line,
-                  .play-icon{
+                  .img-on-line
+                  {
                     width: 200px;
                     height: 250px;
                     border: 2px solid purple;
@@ -221,7 +232,15 @@
                  .on-line-img1{
                     width: 200px;
                     height: 250px;
+                    border: 2px solid purple;
+                    border-radius: 10px;
                   }
+
+                  .on-line-img1:hover{
+                    box-shadow: 2px 4px 6px 8px black;
+                }
+
+
 
                 
                   .online-img1{
@@ -231,8 +250,11 @@
  
                   .icon-with-play{
                    position: absolute;
-                   top: 92px;
-                   left: 60px;
+                   top: 44%;
+                   right: 50%;
+                   transform: translate(50%,-50%);
+                   
+                  
 
                   }
               
@@ -246,12 +268,12 @@
 
                   .play{
                    font-size: 40px;
-                   color:rgb(149, 236, 9);
+                   color:rgb(255, 255, 254);
 
                   }
 
                   .play-para{
-                    color:rgb(0, 225, 255);
+                    color:rgb(255, 0, 234);
                     font-weight: bolder;
                   }
 
@@ -438,7 +460,7 @@
                      }
 
                     
-                    .game-one2{
+                     .game-one2{
                       border: 1px solid rgb(189, 14, 183);
                       padding: 5px;
                       border-radius: 30px;
@@ -517,12 +539,34 @@
             color: white;
             font-weight: bold;
             font-size: 12px;
+            padding: 2px;
+            transition: all 0.4s;
+
+            
           }
+
+          .footer-link ul li a:hover{
+            background-color: white;
+            color: black;
+            border-radius: 5px;
+          }
+          
 
 
           .footer-icon ul li a i{
             font-size: 32px;
+            padding: 2px;
+            transition: all 0.4s;
+
+            
           }
+           
+          .footer-icon ul li a i:hover{
+            background-color: white;
+            border-radius: 5px;
+          }
+
+
 
           .twit{
             color: rgb(13, 226, 226);
@@ -559,8 +603,19 @@
             color: white;
             font-size: 10px;
             font-weight: bold;
+            padding: 2px;
+            transition: all 0.4s;
+
 
           }
+
+          .footer-terms ul li a:hover{
+            background-color: white;
+            color: black;
+            border-radius: 5px;
+          }
+
+
 
           .footer-terms>ul{
             display: flex;
